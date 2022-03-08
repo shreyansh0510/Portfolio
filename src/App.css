@@ -1,0 +1,25 @@
+.app {
+  width: 100%;
+  background-color: #1b283a;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1b283a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 110, 110);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

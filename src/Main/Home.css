@@ -1,0 +1,79 @@
+.profile {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: center; */
+  padding: 15vh 0;
+  /* border: 1px solid white; */
+  position: relative;
+}
+
+.bio {
+  /* margin: 10vh 0; */
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(0, -45%);
+}
+
+.radium {
+  color: rgb(133, 227, 255);
+  font-size: 1rem;
+  /* border: 1px solid white; */
+}
+
+.shreyanshsingh {
+  font-size: 4.4rem;
+  color: rgb(233, 233, 233);
+  font-weight: 700;
+  letter-spacing: 0.5mm;
+}
+
+/* .slogan {
+  font-size: 2.5rem;
+  color: rgb(211, 211, 211);
+  font-weight: 600;
+  margin-bottom: 2vh;
+} */
+
+.intro {
+  font-size: 1rem;
+  color: rgb(155, 155, 155);
+  text-align: justify;
+  /* border: 1px solid white; */
+}
+
+.slogan h6 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid rgb(133, 227, 255); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  font-size: 2.5rem;
+  color: rgb(199, 199, 199);
+  font-weight: 600;
+  /* margin-bottom: 2vh; */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The slogan cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(133, 227, 255);
+  }
+}

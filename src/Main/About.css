@@ -1,0 +1,77 @@
+.aboutClass {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #1b283a;
+}
+
+.aboutImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  /* border: 1px solid white; */
+}
+
+.aboutImage img {
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+  padding: 4px;
+  border: 2px solid rgb(190, 240, 255, 0.7);
+  box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
+}
+
+.aboutImage img:hover {
+  box-shadow: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
+}
+
+.aboutDescription {
+  width: 50%;
+}
+
+.aboutme {
+  margin: 10px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(224, 224, 224);
+  color: rgb(190, 240, 255);
+  /* border: 1px solid white; */
+  letter-spacing: 0.5mm;
+}
+
+.text {
+  text-align: justify;
+  color: #9b9b9b;
+  line-height: 10mm;
+  /* border: 1px solid white; */
+  margin-bottom: 10px;
+}
+
+.resumediv {
+  color: rgb(190, 240, 255);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.resumespan {
+  color: #9b9b9b;
+  color: rgb(190, 240, 255);
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.resumespan:hover {
+  cursor: pointer;
+}
+
+.bi-file-earmark-pdf {
+  margin-left: 5px;
+}
