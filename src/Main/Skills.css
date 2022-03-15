@@ -7,6 +7,7 @@
   background-color: #1b283a;
   /* display: flex;
   align-items: center; */
+  min-height: 100vh;
 }
 
 .skillTitle {
@@ -19,6 +20,7 @@
 
 .skillContent {
   display: flex;
+  align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 20px auto;
@@ -57,4 +59,59 @@
 .card-body {
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 1030px) {
+  .skillsClass {
+    height: auto;
+    width: 80%;
+    padding: 0;
+    margin: 15vh auto;
+    min-height: 0;
+  }
+
+  .skillTitle {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .skillContent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #1b283a;
+    border: none;
+  }
+  .card-img-top {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+  }
+  .card-title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card {
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #1b283a;
+    border: none;
+  }
+  .card-img-top {
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+  }
+  .card-title {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1rem;
+  }
 }

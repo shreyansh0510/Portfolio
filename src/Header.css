@@ -71,3 +71,58 @@ a {
   color: #ffff;
   opacity: 1;
 }
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: rgb(190, 240, 255);
+  /* font-size: 1rem; */
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1030px) {
+  #nav-ul {
+    display: none;
+  }
+
+  #nav-ul.show {
+    display: flex;
+    width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    /* display: none; */
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .navbarOptions a {
+    font-size: 1rem;
+    color: rgb(190, 240, 255);
+    letter-spacing: 0.5mm;
+  }
+
+  .navbarOptions a :hover {
+    cursor: pointer;
+  }
+
+  .navbarOptions {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 18vh;
+    margin-top: 10px;
+    padding: 20px;
+    left: 0;
+    background-color: #121e2edc;
+  }
+}

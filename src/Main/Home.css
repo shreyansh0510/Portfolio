@@ -77,3 +77,74 @@
     border-color: rgb(133, 227, 255);
   }
 }
+
+@media screen and (max-width: 1030px) {
+  .profile {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 15vh 0;
+    position: relative;
+    text-align: center;
+  }
+
+  .shreyanshsingh {
+    font-size: 2.4rem;
+  }
+  .slogan h6 {
+    font-size: 1.4rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .intro {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 15vh 0;
+    position: relative;
+    text-align: center;
+  }
+  .intro {
+    text-align: center;
+  }
+  .shreyanshsingh {
+    font-size: 2.2rem;
+  }
+  .slogan h6 {
+    font-size: 1rem;
+    /* width: 90%; */
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 15vh 0;
+    position: relative;
+    text-align: center;
+  }
+  .intro {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .shreyanshsingh {
+    font-size: 1.5rem;
+  }
+  .slogan h6 {
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0;
+  }
+}

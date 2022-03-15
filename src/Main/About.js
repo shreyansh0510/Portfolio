@@ -6,7 +6,7 @@ function About() {
     <div className="aboutClass" id="about">
       <div className="aboutImage ">
         {/* C:\Users\shrey\Projects\React2021\projectElon\portfolio\src\images\biopic.jpeg */}
-        <img src="/images/biopic3.jpg" alt="profilepicture" />
+        <img src="/images/biopic.jpg" alt="profilepicture" />
       </div>
       <div className="aboutDescription">
         <div className="aboutme">About Me</div>

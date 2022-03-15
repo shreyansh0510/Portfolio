@@ -33,6 +33,7 @@
 
 .projectImage img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .projectDescription {
@@ -103,4 +104,61 @@
 
 .bi-github {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 1030px) {
+  .workClass {
+    width: 80%;
+    margin: 15vh auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .workContent {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    margin: 100px 0;
+  }
+
+  .workTitle {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .projectImage {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .projectName {
+    font-size: 1.2rem;
+  }
+
+  .projectName span {
+    font-size: 1.2rem;
+  }
+
+  .projectDescription {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .projectName {
+    font-size: 1.2rem;
+  }
+
+  .projectName span {
+    font-size: 1.2rem;
+  }
+  .projectDetails {
+    font-size: 1rem;
+  }
+  .techStack {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
 }

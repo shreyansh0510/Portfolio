@@ -8,7 +8,7 @@ function Home() {
       <div className="bio">
         <div className="radium">Hello world, my name is</div>
         <br />
-        <div className="shreyanshsingh">Shreyansh Singh.</div>
+        <div className="shreyanshsingh">Shreyansh Singh</div>
         <br />
         <div className="slogan">
           <h6>&#60;I build & design things for the web /&#62;</h6>

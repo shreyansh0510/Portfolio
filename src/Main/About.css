@@ -12,7 +12,6 @@
   display: flex;
   justify-content: center;
   margin-right: 5%;
-  /* border: 1px solid white; */
 }
 
 .aboutImage img {
@@ -21,12 +20,6 @@
   width: 18rem;
   padding: 4px;
   border: 2px solid rgb(190, 240, 255, 0.7);
-  box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
-}
-
-.aboutImage img:hover {
-  box-shadow: none;
-  cursor: pointer;
   box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
 }
 
@@ -74,4 +67,85 @@
 
 .bi-file-earmark-pdf {
   margin-left: 5px;
+}
+
+@media screen and (max-width: 1030px) {
+  .aboutClass {
+    width: 80%;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1b283a;
+    height: auto;
+  }
+  .aboutImage {
+    margin-right: 0;
+  }
+  .aboutImage img {
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: justify;
+    color: #9b9b9b;
+    line-height: 10mm;
+  }
+
+  .aboutDescription {
+    width: 80%;
+    margin: 50px 0;
+  }
+
+  .resumediv {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .aboutClass {
+    width: 100%;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1b283a;
+    height: auto;
+  }
+  .aboutme {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutImage img {
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+    padding: 4px;
+    border: 2px solid rgb(190, 240, 255, 0.7);
+    box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
+  }
+  .aboutDescription {
+    margin-top: 50px;
+  }
+  .text {
+    text-align: justify;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+  }
+  .resumediv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .aboutImage img {
+    height: 10rem;
+    width: 10rem;
+  }
 }
