@@ -11,3 +11,10 @@
 .footer span {
   color: rgb(199, 199, 199);
 }
+
+@media screen and (max-width: 300px) {
+  .footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

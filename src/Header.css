@@ -63,7 +63,7 @@ a {
   text-transform: capitalize;
   color: rgb(175, 175, 175);
   opacity: 0.8;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -76,9 +76,12 @@ a {
   background-color: transparent;
   border: 0;
   color: rgb(190, 240, 255);
-  /* font-size: 1rem; */
   cursor: pointer;
   display: none;
+}
+
+.hamburger i {
+  font-size: 1.6rem;
 }
 
 .hamburger:focus {
@@ -102,27 +105,25 @@ a {
   .header {
     /* display: none; */
   }
+
   .name {
     font-size: 1rem;
-  }
-  .navbarOptions a {
-    font-size: 1rem;
-    color: rgb(190, 240, 255);
-    letter-spacing: 0.5mm;
-  }
-
-  .navbarOptions a :hover {
-    cursor: pointer;
   }
 
   .navbarOptions {
     display: flex;
     flex-direction: column;
     position: fixed;
-    height: 18vh;
-    margin-top: 10px;
+    min-height: 20vh;
     padding: 20px;
     left: 0;
     background-color: #121e2edc;
+  }
+
+  .navbarOptions a {
+    font-size: 1rem;
+    color: rgb(190, 240, 255);
+    letter-spacing: 0.2mm;
+    text-align: left;
   }
 }

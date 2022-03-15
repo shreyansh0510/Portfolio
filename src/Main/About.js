@@ -23,7 +23,7 @@ function About() {
           <a href="/pdf/shreyanshsingh.pdf" target="_blank">
             <span className="resumespan">
               Resume
-              <i class="bi bi-file-earmark-pdf"></i>
+              <i className="bi bi-file-earmark-pdf"></i>
             </span>
           </a>
         </div>

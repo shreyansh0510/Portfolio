@@ -53,9 +53,24 @@ a:hover {
     margin: 15vh auto;
     padding: 0;
   }
+
   .contactlinks {
     flex-direction: column;
     width: 80%;
     margin: 100px auto;
   }
+}
+
+@media screen and (max-width: 300px) {
+  .icons a {
+    font-size: 1.2rem;
+  }
+  .icons {
+    padding: 5px 0px;
+  }
+  /* .contactlinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  } */
 }

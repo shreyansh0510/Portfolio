@@ -150,6 +150,13 @@
     font-size: 1.2rem;
   }
 
+  .workContent {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 40px 0;
+    margin-bottom: 100px;
+  }
+
   .projectName span {
     font-size: 1.2rem;
   }

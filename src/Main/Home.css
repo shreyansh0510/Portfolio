@@ -22,6 +22,7 @@
   color: rgb(133, 227, 255);
   font-size: 1rem;
   /* border: 1px solid white; */
+  display: flex;
 }
 
 .shreyanshsingh {
@@ -31,26 +32,20 @@
   letter-spacing: 0.5mm;
 }
 
-/* .slogan {
-  font-size: 2.5rem;
-  color: rgb(211, 211, 211);
-  font-weight: 600;
-  margin-bottom: 2vh;
-} */
-
 .intro {
   font-size: 1rem;
   color: rgb(155, 155, 155);
   text-align: justify;
   /* border: 1px solid white; */
+  width: 50%;
 }
 
 .slogan h6 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid rgb(133, 227, 255); /* The typwriter cursor */
+  /* border-right: 0.15em solid rgb(133, 227, 255); */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  /* Gives that scrolling effect as the typing happens */
+  animation: typing 4s steps(68, end), blink-caret 0.75s step-end infinite;
   font-size: 2.5rem;
   color: rgb(199, 199, 199);
   font-weight: 600;
@@ -80,71 +75,75 @@
 
 @media screen and (max-width: 1030px) {
   .profile {
-    width: 80%;
-    height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    padding: 15vh 0;
-    position: relative;
-    text-align: center;
   }
 
   .shreyanshsingh {
     font-size: 2.4rem;
   }
   .slogan h6 {
-    font-size: 1.4rem;
-    width: 90%;
-    margin: 0 auto;
+    font-size: 1.5rem;
+    color: rgb(199, 199, 199);
+    font-weight: 600;
   }
   .intro {
-    text-align: center;
+    font-size: 0.8rem;
+    width: 70%;
   }
 }
 
-@media screen and (max-width: 450px) {
-  .profile {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 15vh 0;
-    position: relative;
-    text-align: center;
-  }
-  .intro {
-    text-align: center;
-  }
+@media screen and (max-width: 650px) {
   .shreyanshsingh {
     font-size: 2.2rem;
   }
   .slogan h6 {
     font-size: 1rem;
-    /* width: 90%; */
     width: 100%;
     margin: 0;
   }
+  .intro,
+  .radium {
+    font-size: 0.9rem;
+  }
 }
 
-@media screen and (max-width: 350px) {
-  .profile {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 15vh 0;
-    position: relative;
-    text-align: center;
-  }
+@media screen and (max-width: 450px) {
   .intro {
     font-size: 0.8rem;
-    text-align: center;
+    width: 80%;
   }
   .shreyanshsingh {
     font-size: 1.5rem;
   }
   .slogan h6 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     width: 100%;
     margin: 0;
+  }
+  .radium {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .intro {
+    font-size: 0.7rem;
+    width: 80%;
+  }
+  .shreyanshsingh {
+    font-size: 1.5rem;
+  }
+  .slogan h6 {
+    font-size: 0.7rem;
+    width: 100%;
+    margin: 0;
+  }
+  .radium {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .slogan h6 {
+    display: none;
   }
 }

@@ -115,3 +115,19 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .card-img-top {
+    margin: 20px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .card-img-top {
+    margin: 20px;
+    height: 280px;
+    width: 280px;
+  }
+}

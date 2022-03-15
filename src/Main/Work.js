@@ -11,7 +11,7 @@ function Work() {
         </div>
         <div className="projectDescription">
           <div className="projectName">
-            <i class="bi bi-folder2"></i>
+            <i className="bi bi-folder2"></i>
             <span>Food Ordering App</span>
           </div>
           <div className="projectLevel">Level: Advanced</div>
@@ -33,7 +33,7 @@ function Work() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="bi bi-github"></i>
+              <i className="bi bi-github"></i>
               Click here to view
             </a>
           </div>
@@ -46,7 +46,7 @@ function Work() {
         </div>
         <div className="projectDescription">
           <div className="projectName">
-            <i class="bi bi-folder2"></i>
+            <i className="bi bi-folder2"></i>
             <span>Covid-19 Tracker App</span>
           </div>
           <div className="projectLevel">Level: Intermediate</div>
@@ -67,7 +67,7 @@ function Work() {
               target="_blank"
               rel="noreferrer"
             >
-              <i class="bi bi-github"></i>
+              <i className="bi bi-github"></i>
               Click here to view
             </a>
           </div>
@@ -80,7 +80,7 @@ function Work() {
         </div>
         <div className="projectDescription">
           <div className="projectName">
-            <i class="bi bi-folder2"></i>
+            <i className="bi bi-folder2"></i>
             <span>Todo List App</span>
           </div>
           <div className="projectLevel">Level: Beginner</div>
@@ -94,7 +94,7 @@ function Work() {
             <span>Firebase</span>
           </div>
           <div className="githubLink">
-            <i class="bi bi-github"></i>
+            <i className="bi bi-github"></i>
             Click here to view
           </div>
         </div>

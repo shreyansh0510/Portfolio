@@ -20,7 +20,7 @@
   width: 18rem;
   padding: 4px;
   border: 2px solid rgb(190, 240, 255, 0.7);
-  box-shadow: 1px 1px 10px 0 rgb(190, 240, 255);
+  box-shadow: 1px 1px 5px 0 rgb(190, 240, 255);
 }
 
 .aboutDescription {
@@ -48,8 +48,7 @@
 .resumediv {
   color: rgb(190, 240, 255);
   font-size: 1.2rem;
-  display: flex;
-  align-items: center;
+  margin-top: 15%;
 }
 
 .resumespan {
@@ -99,12 +98,6 @@
     width: 80%;
     margin: 50px 0;
   }
-
-  .resumediv {
-    display: flex;
-    justify-content: center;
-    margin: 30px auto;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -135,11 +128,6 @@
     text-align: justify;
     color: #9b9b9b;
     margin-bottom: 10px;
-  }
-  .resumediv {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
   }
 }
 

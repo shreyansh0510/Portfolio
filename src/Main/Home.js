@@ -16,8 +16,8 @@ function Home() {
         <br />
         <div className="intro">
           I’m a software engineer specializing in building and designing
-          <br /> exceptional digital experiences. Currently, I’m focused on
-          <br /> building accessible, human-centered products
+          exceptional digital experiences. Currently, I’m focused on building
+          accessible, human-centered products
         </div>
       </div>
     </div>
