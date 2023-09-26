@@ -19,14 +19,14 @@ function About() {
           start-up. My main focus these days is building accessible, inclusive
           products and digital experiences for end-user
         </div>
-        <div className="resumediv">
+        {/* <div className="resumediv">
           <a href="/pdf/shreyanshsingh.pdf" target="_blank">
             <span className="resumespan">
               Resume
               <i className="bi bi-file-earmark-pdf"></i>
             </span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
